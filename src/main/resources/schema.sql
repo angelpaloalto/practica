@@ -1,0 +1,3 @@
+CREATE TABLE PELICULA( id INTEGER NOT NULL PRIMARY KEY, titulo VARCHAR(50) NOT NULL, genero VARCHAR(25) NOT NULL, duracion INTEGER NOT NULL);
+
+insert into PELICULA values ( 1, 'TIN & TINA', 'suspenso', 126 );
